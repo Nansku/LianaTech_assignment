@@ -1,37 +1,57 @@
 import React from "react";
+import { Col, Row } from "react-bootstrap";
+
+import face from "./img/SVG/face_48dp.svg";
+import business from "./img/SVG/business_center_48dp.svg";
+import earth from "./img/SVG/public_48dp.svg";
+import CountUp from 'react-countup';
 
 const CompanyNumbers = () => {
+
     return (
-        <section class="container-fluid p-0">
-            <div class="row trio_num">
-                <div class="col-6 col-md-2 text-center trio_num_single">
-                    <span class="material-icons">business_center</span>               
-                </div>
 
-                <div class="col-6 col-md-2 trio_num_single">
-                    <h1 class="trio_num_header" id="value1" ></h1>
+        <div class="container-fluid d-flex justify-content-center">
+            <CountUp
+                start={-875.039}
+                end={160527.012}
+                duration={2.75}
+                separator=" "
+                decimals={4}
+                decimal=","
+                prefix="EUR "
+                suffix=" left"
+                onEnd={() => console.log('Ended! 👏')}
+                onStart={() => console.log('Started! 💨')}
+            ></CountUp>
+            <Row className="">
+                <Col>
+                    <img src={business} />
+                </Col>
+
+                <Col>
+                    <span ref={countUpRef}></span>
                     <p>Clients</p>
-                </div>
+                </Col>
 
-                <div class="col-6 col-md-2 text-center trio_num_single">
-                    <span class="material-icons">face</span>
-                </div>
+                <Col>
+                    <img src={face} />
+                </Col>
 
-                <div class="col-6 col-md-2 trio_num_single">
-                    <h1 class="trio_num_header" id="value2" ></h1>
+                <Col>
+                    <h1 id="value2" ></h1>
                     <p>Employees</p>
-                </div>
+                </Col>
 
-                <div class="col-6 col-md-2 text-center trio_num_single">
-                    <span class="material-icons">public</span>
-                </div>
+                <Col>
+                    <img src={earth} />
+                </Col>
 
-                <div class="col-6 col-md-2 trio_num_single">
-                    <h1 class="trio_num_header" id="value3"></h1>
-                    <p>Daily users</p> 
-                </div>
-            </div>
-        </section>
+                <Col >
+                    <h1 id="value3"></h1>
+                    <p>Daily users</p>
+                </Col>
+            </Row>
+        </div>
     )
 }
 

@@ -7,7 +7,7 @@ import bg_contact_us from './img/bg_contact.png'
 
 const CompanyInfo = () => {
     return (
-        <section class="container-fluid text-center pt-5">
+        <div class="container-fluid text-center pt-5">
             <Row class="show-grid mx-center">
                 <Col sm={12} md={4} className="position-relative">
                     <img src={bg_company} class="img-fluid" />
@@ -17,20 +17,20 @@ const CompanyInfo = () => {
                 </Col>
 
                 <Col sm={12} md={4} className="position-relative" >
-                    <img src={bg_products}  />
+                    <img src={bg_products} class="img-fluid"/>
                     <div class="position-absolute top-50 start-50 translate-middle">
                         <a href="#">Products</a>
                     </div>
                 </Col>
 
                 <Col sm={12} md={4} className="position-relative" >
-                    <img src={bg_contact_us}/>
+                    <img src={bg_contact_us} class="img-fluid"/>
                     <div class="position-absolute top-50 start-50 translate-middle">
                         <a href="#">Contact us</a>
                     </div>
                 </Col>
             </Row>
-        </section>
+        </div>
     )
 }
 

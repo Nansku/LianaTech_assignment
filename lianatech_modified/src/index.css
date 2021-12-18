@@ -33,3 +33,12 @@ code {
   background-color: #4c8930;
 }
 
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+}

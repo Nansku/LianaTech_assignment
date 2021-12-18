@@ -4,6 +4,8 @@ import Infobar from './components/Infobar';
 import ParallaxEffect from './components/ParallaxEffect';
 import CompanyInfo from './components/CompanyInfo';
 import CompanyNumbers from './components/CompanyNumbers';
+import Footer from './components/Footer';
+import Newsletter from './components/Newsletter';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
         <ParallaxEffect />
         <CompanyInfo />
         <CompanyNumbers />
+        <Newsletter />
+        <Footer />
       </div>
     </div>
   );

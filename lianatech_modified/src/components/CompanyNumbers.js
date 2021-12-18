@@ -29,7 +29,7 @@ const CompanyNumbers = () => {
                 </Col>
 
                 <Col>
-                    <span ref={countUpRef}></span>
+                    {/* <span ref={countUpRef}></span> */}
                     <p>Clients</p>
                 </Col>
 

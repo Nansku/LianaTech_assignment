@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Col, Row } from "react-bootstrap";
 
 import face from "./img/SVG/face_48dp.svg";
@@ -9,27 +9,15 @@ import CountUp from 'react-countup';
 const CompanyNumbers = () => {
 
     return (
-
-        <div class="container-fluid d-flex justify-content-center">
-            <CountUp
-                start={-875.039}
-                end={160527.012}
-                duration={2.75}
-                separator=" "
-                decimals={4}
-                decimal=","
-                prefix="EUR "
-                suffix=" left"
-                onEnd={() => console.log('Ended! 👏')}
-                onStart={() => console.log('Started! 💨')}
-            ></CountUp>
-            <Row className="">
+        <div class="container-fluid d-flex justify-content-center pt-5 pb-2">
+            <Row>
                 <Col>
                     <img src={business} />
                 </Col>
 
                 <Col>
-                    {/* <span ref={countUpRef}></span> */}
+                    {/* <i>{count}</i> */}
+                    <CountUp isCounting start={3000} end={Number.MAX_SAFE_INTEGER/10} duration={Number.MAX_SAFE_INTEGER} />
                     <p>Clients</p>
                 </Col>
 
@@ -38,7 +26,7 @@ const CompanyNumbers = () => {
                 </Col>
 
                 <Col>
-                    <h1 id="value2" ></h1>
+                <CountUp isCounting start={180} end={Number.MAX_SAFE_INTEGER/5} duration={Number.MAX_SAFE_INTEGER} />
                     <p>Employees</p>
                 </Col>
 
@@ -47,7 +35,7 @@ const CompanyNumbers = () => {
                 </Col>
 
                 <Col >
-                    <h1 id="value3"></h1>
+                <CountUp isCounting start={10000} end={Number.MAX_SAFE_INTEGER/3} duration={Number.MAX_SAFE_INTEGER} />
                     <p>Daily users</p>
                 </Col>
             </Row>

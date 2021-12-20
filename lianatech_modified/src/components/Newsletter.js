@@ -3,7 +3,7 @@ import { Row, Col, Button, Form } from 'react-bootstrap';
 
 const Newsletter = () => {
     return (
-        <Row className="text-center d-flex">
+        <Row className="text-center d-flex pb-5">
             <Col className="justify-center">
                 <h3>Subscribe to our newsletter</h3>
                 <p>Follow our story and get the latest promotional

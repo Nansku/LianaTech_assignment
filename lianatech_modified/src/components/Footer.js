@@ -5,9 +5,8 @@ import { Row, Col, Button } from 'react-bootstrap';
 const Footer = () => {
     return (
         <div>
-            <footer class="footer container-fluid pt-5 pb-5">
+            <footer class="footer container-fluid py-5 px-4 px-lg-5">
                 <Row>
-
                     <Col lg={6} className="d-flex justify-content-start">
                         <h4>Liana Technologies</h4>
                     </Col>
@@ -25,7 +24,7 @@ const Footer = () => {
                 <Row>
                     <div class="col-12 col-lg-4 col-xl-3 text-left">
                         <h5>Sales and inquiries</h5>
-                        <p>Email: sales@lianatech.com </p>
+                        <p>Email: sales@lianatech.com</p>
                         <p>Phone: +358 10 387 7053</p>
                     </div>
 

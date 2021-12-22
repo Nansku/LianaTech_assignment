@@ -10,7 +10,7 @@ const ParallaxEffect = () => {
                 bgImage={bg}
                 bgImageAlt="Parallax background"
                 strength={200} >
-                <div className="object-cover parallax_caption position-absolute top-50 start-50 translate-middle">
+                <div className="object-cover text-center parallax_caption position-absolute top-50 start-50 translate-middle">
                     <div>
                         Software fueling digital marketing
                     </div>

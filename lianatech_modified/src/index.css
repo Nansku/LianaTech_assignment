@@ -33,6 +33,11 @@ code {
   background-color: #4c8930;
 }
 
+.countUpNumbers {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 44px;
+}
+
 footer {
   background-color: #000000;
   color: #ffffff;
@@ -41,4 +46,9 @@ footer {
 
 a {
   text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+p, h3, button {
+  font-family: 'Open Sans', sans-serif;
 }

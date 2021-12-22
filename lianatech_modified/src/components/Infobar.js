@@ -7,8 +7,8 @@ const Infobar = () => {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="justify-content-end" style={{ width: "100%" }}>
-                    <Nav.Link href="#home">News</Nav.Link>
-                    <Nav.Link href="#link">Intranet</Nav.Link>
+                    <Nav.Link className="text-white" href="#home">News</Nav.Link>
+                    <Nav.Link className="text-white"  href="#link">Intranet</Nav.Link>
                     <Form.Select className="w-auto">
                         <option>In English</option>
                         <option>In Finnish</option>

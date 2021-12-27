@@ -1,3 +1,4 @@
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar';
 import Infobar from './components/Infobar';
@@ -6,6 +7,7 @@ import CompanyInfo from './components/CompanyInfo';
 import CompanyNumbers from './components/CompanyNumbers';
 import Footer from './components/Footer';
 import Newsletter from './components/Newsletter';
+import References from './components/References';
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
         <ParallaxEffect />
         <CompanyInfo />
         <CompanyNumbers />
+        <References />
         <Newsletter />
         <Footer />
       </div>

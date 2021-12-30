@@ -7,23 +7,23 @@ import bg_contact_us from './img/bg_contact.png'
 
 const CompanyInfo = () => {
     return (
-        <div class="container-fluid text-center pt-5" style={{fontSize: 24}}>
-            <Row class="show-grid mx-center">
-                <Col sm={12} md={4} className="position-relative">
+        <div class="container-fluid text-center pt-5 d-flex justify-content-center" style={{fontSize: 24}}>
+            <Row lg="auto" class="show-grid ">
+                <Col xs={12} className="position-relative px-3">
                     <img src={bg_company} class="img-fluid" />
                     <div class="position-absolute top-50 start-50 translate-middle">
                         <a href="#" className="text-white">Company</a>
                     </div>
                 </Col>
 
-                <Col sm={12} md={4} className="position-relative" >
+                <Col xs={12} className="position-relative px-3" >
                     <img src={bg_products} class="img-fluid"/>
                     <div class="position-absolute top-50 start-50 translate-middle">
                         <a href="#" className="text-white">Products</a>
                     </div>
                 </Col>
 
-                <Col sm={12} md={4} className="position-relative" >
+                <Col xs={12} className="position-relative px-3" >
                     <img src={bg_contact_us} class="img-fluid"/>
                     <div class="position-absolute top-50 start-50 translate-middle">
                         <a href="#" className="text-white">Contact us</a>

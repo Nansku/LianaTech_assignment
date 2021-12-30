@@ -6,22 +6,22 @@ import logo from './img/liana-technologies-logo-2018.png'
 const Navigationbar = () => {
     return (
         <Row className="container-fluid">
-        <Navbar className="bg-white py-3 px-4 px-lg-5 flex align-items-center" expand="md">
+        <Navbar className="bg-white py-3 px-4 px-lg-5 " expand="md">
             <Navbar.Brand href="#home">
                     <img alt="Liana technologies -logo" src={logo}
-                    className='w-25'></img>
+                    style={{width: '10em'}}></img>
                 </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-            <Col md={6} className="">
+            <Col>
                 <Nav className="me-auto">
                     <Nav.Link href="#home">Company</Nav.Link>
                     <Nav.Link href="#link">Products</Nav.Link>
                     <Nav.Link href="#link">Contact Us</Nav.Link>
                 </Nav>
                 </Col>
-                <Col md={6}>
-                <Form className="d-flex">
+                <Col className="d-flex justify-content-end">
+                <Form className="d-flex w-auto">
                     <FormControl
                         type="search"
                         placeholder="Search"

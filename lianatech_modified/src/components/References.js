@@ -7,7 +7,7 @@ import ikea_png from "./img/ref/ikea.png";
 
 const ReferenceCards = () => {
     return (
-        <Row className="container-fluid text-center d-flex justify-content-center">
+        <Row className="container-fluid text-center d-flex justify-content-center pb-5">
                 <div class="col-12">
                     <h3 className="title">References</h3>
                 </div>

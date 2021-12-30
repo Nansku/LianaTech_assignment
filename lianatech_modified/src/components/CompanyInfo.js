@@ -7,7 +7,7 @@ import bg_contact_us from './img/bg_contact.png'
 
 const CompanyInfo = () => {
     return (
-        <div class="container-fluid text-center pt-5 d-flex justify-content-center" style={{fontSize: 24}}>
+        <div class="container-fluid text-center pt-5 d-flex justify-content-center title" style={{fontSize: 28}}>
             <Row lg="auto" class="show-grid ">
                 <Col xs={12} className="position-relative px-3">
                     <img src={bg_company} class="img-fluid" />

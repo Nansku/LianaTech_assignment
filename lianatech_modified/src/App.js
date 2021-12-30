@@ -1,5 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Container from 'react-bootstrap/Container'
 import Navbar from './components/Navbar';
 import Infobar from './components/Infobar';
 import ParallaxEffect from './components/ParallaxEffect';
@@ -11,7 +12,7 @@ import References from './components/References';
 
 function App() {
   return (
-    <div className="flex flex-col h-screen justify-between">
+    <Container fluid className="h-screen justify-between p-0">
       <Infobar />
       <Navbar />
       <div className="mb-auto justify-self-start">
@@ -22,7 +23,7 @@ function App() {
         <Newsletter />
         <Footer />
       </div>
-    </div>
+    </Container>
   );
 }
 

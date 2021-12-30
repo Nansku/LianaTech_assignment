@@ -5,7 +5,7 @@ import logo from './img/liana-technologies-logo-2018.png'
 
 const Navigationbar = () => {
     return (
-        <Row>
+        <Row className="container-fluid">
         <Navbar className="bg-white py-3 px-4 px-lg-5 flex align-items-center" expand="md">
             <Navbar.Brand href="#home">
                     <img alt="Liana technologies -logo" src={logo}
@@ -28,7 +28,7 @@ const Navigationbar = () => {
                         className="me-2"
                         aria-label="Search"
                     />
-                    <Button variant="outline-success">Search</Button>
+                    <Button variant="success">Search</Button>
                 </Form>
                 </Col>
             </Navbar.Collapse>

@@ -11,17 +11,17 @@ const CompanyNumbers = () => {
     return (
         <div class="container-fluid d-flex justify-content-center pt-5 pb-2">
             <Row className="align-items-center">
-                <Col>
+                <Col >
                     <img src={business} />
                 </Col>
 
-                <Col>
+                <Col >
                     {/* <i>{count}</i> */}
                     <CountUp className="countUpNumbers" isCounting start={3000} end={Number.MAX_SAFE_INTEGER/10} duration={Number.MAX_SAFE_INTEGER} />
                     <p>Clients</p>
                 </Col>
 
-                <Col>
+                <Col className="ps-5">
                     <img src={face} />
                 </Col>
 
@@ -30,7 +30,7 @@ const CompanyNumbers = () => {
                     <p>Employees</p>
                 </Col>
 
-                <Col>
+                <Col className="ps-5">
                     <img src={earth} />
                 </Col>
 

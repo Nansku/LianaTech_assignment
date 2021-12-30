@@ -9,7 +9,7 @@ const ReferenceCards = () => {
     return (
         <Row className="container-fluid text-center d-flex justify-content-center">
                 <div class="col-12">
-                    <h3>References</h3>
+                    <h3 className="title">References</h3>
                 </div>
 
                 <Col md="auto" class="col-12 col-md-6 col-xl-3 card_div">

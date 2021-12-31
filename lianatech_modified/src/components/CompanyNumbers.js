@@ -11,31 +11,31 @@ const CompanyNumbers = () => {
     return (
         <div class="container-fluid d-flex justify-content-center pt-5 pb-2">
             <Row className="align-items-center">
-                <Col >
+                <Col xs={5} sm={2} className="d-flex justify-content-end">
                     <img src={business} />
                 </Col>
 
-                <Col >
+                <Col xs={7} sm={2}>
                     {/* <i>{count}</i> */}
-                    <CountUp className="countUpNumbers" isCounting start={3000} end={Number.MAX_SAFE_INTEGER/10} duration={Number.MAX_SAFE_INTEGER} />
+                    <CountUp className="countUpNumbers" isCounting start={3000} end={Number.MAX_SAFE_INTEGER / 10} duration={Number.MAX_SAFE_INTEGER} />
                     <p>Clients</p>
                 </Col>
 
-                <Col className="ps-5">
+                <Col xs={5} sm={2} className="ps-5 d-flex justify-content-end">
                     <img src={face} />
                 </Col>
 
-                <Col>
-                <CountUp className="countUpNumbers" isCounting start={180} end={Number.MAX_SAFE_INTEGER/5} duration={Number.MAX_SAFE_INTEGER} />
+                <Col xs={7} sm={2}>
+                    <CountUp className="countUpNumbers" isCounting start={180} end={Number.MAX_SAFE_INTEGER / 5} duration={Number.MAX_SAFE_INTEGER} />
                     <p>Employees</p>
                 </Col>
 
-                <Col className="ps-5">
+                <Col xs={5} sm={2} className="ps-5 d-flex justify-content-end">
                     <img src={earth} />
                 </Col>
 
-                <Col >
-                <CountUp className="countUpNumbers" isCounting start={10000} end={Number.MAX_SAFE_INTEGER/3} duration={Number.MAX_SAFE_INTEGER} />
+                <Col xs={7} sm={2}>
+                    <CountUp className="countUpNumbers" isCounting start={10000} end={Number.MAX_SAFE_INTEGER / 3} duration={Number.MAX_SAFE_INTEGER} />
                     <p>Daily users</p>
                 </Col>
             </Row>

@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <div>
             <footer class="footer container-fluid py-5 px-4 px-lg-5">
-                <Row>
+                <Row className="pb-4">
                     <Col lg={6} className="d-flex justify-content-start">
                         <h4>Liana Technologies</h4>
                     </Col>
@@ -21,22 +21,23 @@ const Footer = () => {
 
 
                 </Row>
-                <Row>
-                    <div class="col-12 col-lg-4 col-xl-3 text-left">
+                <Row className="d-flex justify-content-start align-items-end">
+                    <Col lg="auto" class="col-12 col-lg-4 col-xl-3">
                         <h5>Sales and inquiries</h5>
-                        <p>Email: sales@lianatech.com</p>
-                        <p>Phone: +358 10 387 7053</p>
-                    </div>
+                        <p className="m-0">Email: sales@lianatech.com
+                            <br />
+                            Phone: +358 10 387 7053</p>
+                    </Col>
 
-                    <div class="col-12 col-lg-3 col-xl-4  text-left d-flex align-items-end mb-1">
-                        <Button className="button_custom">Contact us</Button>
-                    </div>
+                    <Col lg="auto" class="col-12 col-lg-3 col-xl-4 ">
+                        <Button variant="green">Contact us</Button>
+                    </Col>
 
-                    <div class="col-12 col-lg-5 d-flex align-items-end social social_icon">
-                        <i class="fab fa-facebook"></i>
-                        <i class="fab fa-twitter"></i>
-                        <i class="fab fa-linkedin-in"></i>
-                    </div>
+                    <Col lg="auto" className="d-flex align-items-end justify-content-end">
+                        <i className="fab fa-facebook"></i>
+                        <i className="fab fa-twitter"></i>
+                        <i className="fab fa-linkedin-in"></i>
+                    </Col>
                 </Row>
             </footer>
         </div>

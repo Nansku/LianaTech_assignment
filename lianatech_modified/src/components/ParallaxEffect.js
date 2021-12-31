@@ -15,7 +15,7 @@ const ParallaxEffect = () => {
                         Software fueling digital marketing
                     </div>
                     <div className="d-flex justify-content-center mt-3">
-                        <Button variant="success" className="py-2 button_custom">Learn more</Button>
+                        <Button variant="green" className="py-2 button_custom">Learn more</Button>
                     </div>    
                 </div>
                 <div style={{ height: '500px' }} />

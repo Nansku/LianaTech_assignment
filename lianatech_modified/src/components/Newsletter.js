@@ -12,13 +12,14 @@ const Newsletter = () => {
                         news about our products and events.</p>
 
                         <Form className="form-inline d-flex justify-content-center align-items-center">
-                        <Form.Control type="email" className="w-auto" id="email" placeholder="Your email address" />
-                        <Button id="subscribe" type="submit" className="button_custom">Subscribe</Button>
+                        <Form.Control type="email" className="w-auto me-2" id="email" placeholder="Your email address" />
+                        <Button variant="green" id="subscribe" type="submit" className="button_custom">Subscribe</Button>
                     </Form>
                 </Col>
             </Row>
         </div>
     )
 }
+
 
 export default Newsletter;

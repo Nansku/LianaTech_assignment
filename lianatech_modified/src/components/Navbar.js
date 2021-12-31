@@ -5,35 +5,33 @@ import logo from './img/liana-technologies-logo-2018.png'
 
 const Navigationbar = () => {
     return (
-        <Row className="container-fluid">
-        <Navbar className="bg-white py-3 px-4 px-lg-5 " expand="md">
-            <Navbar.Brand href="#home">
+            <Navbar className="bg-white py-3 px-4 px-lg-5 " expand="md">
+                <Navbar.Brand href="#home">
                     <img alt="Liana technologies -logo" src={logo}
-                    style={{width: '10em'}}></img>
+                        style={{ width: '10em' }} />
                 </Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
-            <Col>
-                <Nav className="me-auto">
-                    <Nav.Link href="#home">Company</Nav.Link>
-                    <Nav.Link href="#link">Products</Nav.Link>
-                    <Nav.Link href="#link">Contact Us</Nav.Link>
-                </Nav>
-                </Col>
-                <Col className="d-flex justify-content-end">
-                <Form className="d-flex w-auto">
-                    <FormControl
-                        type="search"
-                        placeholder="Search"
-                        className="me-2"
-                        aria-label="Search"
-                    />
-                    <Button variant="success">Search</Button>
-                </Form>
-                </Col>
-            </Navbar.Collapse>
-        </Navbar>
-        </Row>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav">
+                    <Col className='ps-4'>
+                        <Nav className="me-auto">
+                            <Nav.Link href="#home">Company</Nav.Link>
+                            <Nav.Link href="#link">Products</Nav.Link>
+                            <Nav.Link href="#link">Contact Us</Nav.Link>
+                        </Nav>
+                    </Col>
+                    <Col className="d-flex justify-content-end">
+                        <Form className="d-flex w-auto">
+                            <FormControl
+                                type="search"
+                                placeholder="Search"
+                                className="me-2"
+                                aria-label="Search"
+                            />
+                            <Button variant="green">Search</Button>
+                        </Form>
+                    </Col>
+                </Navbar.Collapse>
+            </Navbar>
     )
 }
 

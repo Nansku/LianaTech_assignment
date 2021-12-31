@@ -8,11 +8,11 @@ import ikea_png from "./img/ref/ikea.png";
 const ReferenceCards = () => {
     return (
         <Row className="container-fluid text-center d-flex justify-content-center pb-5">
-                <div class="col-12">
+                <Row>
                     <h3 className="title">References</h3>
-                </div>
+                </Row>
 
-                <Col md="auto" class="col-12 col-md-6 col-xl-3 card_div">
+                <Col sm={6} lg="auto" className="d-flex justify-content-center mt-4">
                     <Card style={{ width: '15rem' }}>
                         <Card.Img className="p-2" variant="top" src={bosch_png} />
                         <hr/>
@@ -25,7 +25,7 @@ const ReferenceCards = () => {
                     </Card>
                 </Col>
 
-                <Col md="auto" class="col-12 col-md-6 col-xl-3 card_div">
+                <Col sm={6} lg="auto" className="d-flex justify-content-center mt-4">
                     <Card style={{ width: '15rem' }}>
                         <Card.Img className="p-2" variant="top" src={bodyShop_png} />
                         <hr/>
@@ -38,7 +38,7 @@ const ReferenceCards = () => {
                     </Card>
                 </Col>
 
-                <Col md="auto" class="col-12 col-md-6  col-xl-3 card_div">
+                <Col sm={6} lg="auto" className="d-flex justify-content-center mt-4">
                 <Card style={{ width: '15rem' }}>
                         <Card.Img className="p-2" variant="top" src={laplandHotels_png} />
                         <hr/>
@@ -51,7 +51,7 @@ const ReferenceCards = () => {
                     </Card>
                 </Col>
 
-                <Col md="auto" class="col-12 col-md-6  col-xl-3 card_div">
+                <Col sm={6} lg="auto" className="d-flex justify-content-center mt-4">
                 <Card style={{ width: '15rem' }}>
                         <Card.Img className="p-2" variant="top" src={ikea_png} />
                         <hr/>

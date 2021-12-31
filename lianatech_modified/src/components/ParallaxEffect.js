@@ -5,12 +5,12 @@ import Button from 'react-bootstrap/Button'
 
 const ParallaxEffect = () => {
     return (
-        <div className=" position-relative">
+        <div className="position-relative">
             <Parallax
                 bgImage={bg}
                 bgImageAlt="Parallax background"
                 strength={200} >
-                <div className="object-cover text-center parallax_caption position-absolute top-50 start-50 translate-middle">
+                <div className="object-cover w-100 text-center parallaxCaption position-absolute top-50 start-50 translate-middle">
                     <div>
                         Software fueling digital marketing
                     </div>
@@ -18,7 +18,7 @@ const ParallaxEffect = () => {
                         <Button variant="green" className="py-2 button_custom">Learn more</Button>
                     </div>    
                 </div>
-                <div style={{ height: '500px' }} />
+                <div style={{ height: '400px' }} />
             </Parallax>
         </div>
     )

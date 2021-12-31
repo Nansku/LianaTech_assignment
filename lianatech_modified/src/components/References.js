@@ -13,10 +13,10 @@ const ReferenceCards = () => {
                 </Row>
 
                 <Col sm={6} lg="auto" className="d-flex justify-content-center mt-4">
-                    <Card style={{ width: '15rem' }}>
+                    <Card>
                         <Card.Img className="p-2" variant="top" src={bosch_png} />
                         <hr/>
-                        <Card.Body style={{height: '10rem'}}>
+                        <Card.Body>
                             <Card.Title>Robert Bosch</Card.Title>
                             <Card.Text>
                                 Bosch is a multinational engineering and electronics company.
@@ -26,10 +26,10 @@ const ReferenceCards = () => {
                 </Col>
 
                 <Col sm={6} lg="auto" className="d-flex justify-content-center mt-4">
-                    <Card style={{ width: '15rem' }}>
+                    <Card>
                         <Card.Img className="p-2" variant="top" src={bodyShop_png} />
                         <hr/>
-                        <Card.Body style={{height: '10rem'}}>
+                        <Card.Body>
                             <Card.Title>The Body Shop</Card.Title>
                             <Card.Text>
                             The Body Shop is a global beauty brand and it has more than 3,000 stores in more than 60 countries.
@@ -39,10 +39,10 @@ const ReferenceCards = () => {
                 </Col>
 
                 <Col sm={6} lg="auto" className="d-flex justify-content-center mt-4">
-                <Card style={{ width: '15rem' }}>
+                <Card>
                         <Card.Img className="p-2" variant="top" src={laplandHotels_png} />
                         <hr/>
-                        <Card.Body style={{height: '10rem'}}>
+                        <Card.Body>
                             <Card.Title>Lapland Hotels</Card.Title>
                             <Card.Text>
                             Lapland Hotels is the largest and most diverse hotel chain in Lapland.
@@ -52,10 +52,10 @@ const ReferenceCards = () => {
                 </Col>
 
                 <Col sm={6} lg="auto" className="d-flex justify-content-center mt-4">
-                <Card style={{ width: '15rem' }}>
+                <Card>
                         <Card.Img className="p-2" variant="top" src={ikea_png} />
                         <hr/>
-                        <Card.Body style={{height: '10rem'}}>
+                        <Card.Body>
                             <Card.Title>IKEA</Card.Title>
                             <Card.Text>
                             IKEA is a multinational furniture store.

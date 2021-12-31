@@ -6,9 +6,9 @@ import logo from './img/liana-technologies-logo-2018.png'
 const Navigationbar = () => {
     return (
             <Navbar className="bg-white py-3 px-4 px-lg-5 " expand="md">
-                <Navbar.Brand href="#home">
+                <Navbar.Brand href="#home" style={{ width: '10em' }}>
                     <img alt="Liana technologies -logo" src={logo}
-                        style={{ width: '10em' }} />
+                         className="w-75"/>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">

@@ -1,17 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
-
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
 
@@ -20,49 +16,83 @@ code {
 */
 
 .nav-bg {
-  background-color: #4c8930;
+    background-color: #4c8930;
 }
 
-.parallax_caption {
+@media screen and (max-width: 713px) {
+    .parallaxCaption {
+        color: #ffffff;
+        font-size: 38px;
+        font-family: 'Open Sans', sans-serif;
+    }
+}
 
-  color: #ffffff; 
-  font-size: 48px; 
-  font-family: 'Open Sans', sans-serif;
+@media screen and (min-width: 713px) {
+    .parallaxCaption {
+        color: #ffffff;
+        font-size: 48px;
+        font-family: 'Open Sans', sans-serif;
+    }
 }
 
 .btn-green {
-  background-color: #4c8930;
-  color: white;
+    background-color: #4c8930;
+    color: white;
 }
 
 .btn-green:hover {
-  background-color: #3f7128;
-  color: white;
+    background-color: #3f7128;
+    color: white;
 }
-
 
 .countUpNumbers {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 44px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 44px;
 }
 
-
-
 .title {
-  font-weight: 600;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 865px) {
+    .companyInfo {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 865px) {
+    .companyInfo {
+        font-size: 28px;
+    }
 }
 
 footer {
-  background-color: #000000;
-  color: #ffffff;
-  position: relative;
+    background-color: #000000;
+    color: #ffffff;
+    position: relative;
 }
 
 a {
-  text-decoration: none;
-  font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
 }
 
-p, h3, button {
-  font-family: 'Open Sans', sans-serif;
+p,
+h3,
+button {
+    font-family: 'Open Sans', sans-serif;
+}
+
+@media screen and (max-width: 713px) {
+    .card {
+        max-width: 304px;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 713px) {
+    .card {
+        width: 15rem;
+        height: auto;
+    }
 }

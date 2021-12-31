@@ -7,27 +7,33 @@ import bg_contact_us from './img/bg_contact.png'
 
 const CompanyInfo = () => {
     return (
-        <div class="container-fluid text-center pt-5 d-flex justify-content-center title" style={{fontSize: 28}}>
-            <Row  class="show-grid ">
+        <div class="container-fluid text-center pt-5 d-flex justify-content-center title companyInfo">
+            <Row class="show-grid ">
                 <Col xs={12} sm={4} className="position-relative px-3">
-                    <img src={bg_company} class="img-fluid" />
-                    <div class="position-absolute top-50 start-50 translate-middle">
-                        <a href="#" className="text-white">Company</a>
-                    </div>
+                    <a href="#" className="text-white">
+                        <img src={bg_company} class="img-fluid" />
+                        <div class="position-absolute top-50 start-50 translate-middle">
+                            Company
+                        </div>
+                    </a>
                 </Col>
 
                 <Col xs={12} sm={4} className="position-relative px-3 mt-3 mt-sm-0" >
-                    <img src={bg_products} class="img-fluid"/>
-                    <div class="position-absolute top-50 start-50 translate-middle">
-                        <a href="#" className="text-white">Products</a>
-                    </div>
+                    <a href="#" className="text-white">
+                        <img src={bg_products} class="img-fluid" />
+                        <div class="position-absolute top-50 start-50 translate-middle">
+                            Products
+                        </div>
+                    </a>
                 </Col>
 
                 <Col xs={12} sm={4} className="position-relative px-3 mt-3 mt-sm-0" >
-                    <img src={bg_contact_us} class="img-fluid"/>
-                    <div class="position-absolute top-50 start-50 translate-middle">
-                        <a href="#" className="text-white">Contact us</a>
-                    </div>
+                    <a href="#" className="text-white">
+                        <img src={bg_contact_us} class="img-fluid" />
+                        <div class="position-absolute top-50 start-50 translate-middle">
+                            Contact us
+                        </div>
+                    </a>
                 </Col>
             </Row>
         </div>

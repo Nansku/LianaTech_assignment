@@ -24,9 +24,11 @@ const Footer = () => {
                 <Row className="d-flex justify-content-start align-items-end">
                     <Col md="auto" >
                         <h5>Sales and inquiries</h5>
-                        <p className="m-0">Email: sales@lianatech.com
+                        <p className="m-0">
+                            Email: sales@lianatech.com
                             <br />
-                            Phone: +358 10 387 7053</p>
+                            Phone: +358 10 387 7053
+                        </p>
                     </Col>
 
                     <Col md="auto" className="mt-2 ">

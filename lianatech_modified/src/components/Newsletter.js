@@ -1,9 +1,9 @@
-import React, { useState, setShow } from "react";
-import { Row, Col, Button, Form, Modal } from 'react-bootstrap';
+import React, { useState } from "react";
+import { Row, Col, Button, Form } from 'react-bootstrap';
 import PopUp from "./PopUp";
 
 const Newsletter = () => {
-    const [modalShow, setModalShow] = React.useState(false);
+    const [modalShow, setModalShow] = useState(false);
 
     return (
         <div>

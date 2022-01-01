@@ -1,6 +1,9 @@
 import React from "react";
 import { NavLink } from "react-bootstrap";
 import { Row, Col, Button } from 'react-bootstrap';
+import facebookIcon from './img/SVG/icons8-facebook-circled.svg';
+import twitterIcon from './img/SVG/icons8-twitter-circled.svg';
+import linkedInIcon from './img/SVG/icons8-linkedin-circled.svg';
 
 const Footer = () => {
     return (
@@ -21,24 +24,27 @@ const Footer = () => {
 
 
                 </Row>
-                <Row className="d-flex justify-content-start align-items-end">
-                    <Col md="auto" >
-                        <h5>Sales and inquiries</h5>
-                        <p className="m-0">
-                            Email: sales@lianatech.com
-                            <br />
-                            Phone: +358 10 387 7053
-                        </p>
-                    </Col>
+                <Row>
+                    <Col className="d-flex justify-content-start align-items-end">
+                        <Col md="auto">
+                            <h5>Sales and inquiries</h5>
+                            <p className="m-0">
+                                Email: sales@lianatech.com
+                                <br />
+                                Phone: +358 10 387 7053
+                            </p>
+                        </Col>
 
-                    <Col md="auto" className="mt-2 ">
-                        <Button variant="green">Contact us</Button>
+                        <Col md="auto" className="mt-2 ms-5">
+                            <Button variant="green">Contact us</Button>
+                        </Col>
                     </Col>
-
-                    <Col md="auto" className="d-flex align-items-end justify-content-end">
-                        <i className="fab fa-facebook"></i>
-                        <i className="fab fa-twitter"></i>
-                        <i className="fab fa-linkedin-in"></i>
+                    <Col  className="d-flex justify-content-end align-items-end">
+                        <Col md="auto" className="d-flex">
+                            <NavLink className="p-0"><img src={facebookIcon} /></NavLink>
+                            <NavLink className="p-0"><img src={twitterIcon} /></NavLink>
+                            <NavLink className="p-0"><img src={linkedInIcon}/></NavLink>
+                        </Col>
                     </Col>
                 </Row>
             </footer>

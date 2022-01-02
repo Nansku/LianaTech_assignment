@@ -5,7 +5,7 @@ import logo from './img/liana-technologies-logo-2018.png'
 
 const Navigationbar = () => {
     return (
-            <Navbar className="bg-white py-3 px-4 px-lg-5 " expand="md">
+            <Navbar className="bg-white py-3 paddingFullSite" expand="md">
                 <Navbar.Brand href="#home" style={{ width: '10em' }}>
                     <img alt="Liana technologies -logo" src={logo}
                          className="w-75"/>

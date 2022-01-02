@@ -8,7 +8,7 @@ import linkedInIcon from './img/SVG/icons8-linkedin-circled.svg';
 const Footer = () => {
     return (
         <div>
-            <footer class="footer container-fluid py-5 px-4 px-lg-5">
+            <footer class="footer container-fluid py-5 paddingFullSite">
                 <Row className="pb-4">
                     <Col xs={12} md={6} className="d-flex justify-content-start">
                         <h4>Liana Technologies</h4>

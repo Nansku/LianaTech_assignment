@@ -7,11 +7,11 @@ import bg_contact_us from './img/bg_contact.png'
 
 const CompanyInfo = () => {
     return (
-        <div class="container-fluid text-center pt-5 d-flex justify-content-center title companyInfo">
-            <Row class="show-grid ">
+        <div className="container-fluid text-center pt-5 d-flex justify-content-center title companyInfo">
+            <Row class="show-grid">
                 <Col xs={12} sm={4} className="position-relative px-3">
                     <a href="#" className="text-white">
-                        <img src={bg_company} class="img-fluid" />
+                        <img src={bg_company} class="img-fluid"/>
                         <div class="position-absolute top-50 start-50 translate-middle">
                             Company
                         </div>

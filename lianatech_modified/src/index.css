@@ -93,6 +93,44 @@ button {
 @media screen and (min-width: 713px) {
     .card {
         width: 15rem;
-        height: auto;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .paddingFullSite {
+        padding-inline: 0px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .paddingFullSite {
+        padding-inline: 30px;
+    }
+
+    .paddingNewsfeed {
+        padding-inline: 10px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .paddingFullSite {
+        padding-inline: 450px;
+    }
+
+    .paddingNewsfeed {
+        padding-inline: 380px;
     }
 }

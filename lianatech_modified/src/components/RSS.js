@@ -48,7 +48,7 @@ const RSSfeed = () => {
                 }
             },
             {
-                breakpoint: 600,
+                breakpoint: 700,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 2
@@ -61,7 +61,7 @@ const RSSfeed = () => {
                     slidesToScroll: 1
                 }
             }
-        ]  
+        ]
     }
 
     return (

@@ -9,7 +9,7 @@ import CountUp from 'react-countup';
 const CompanyNumbers = () => {
 
     return (
-        <div class="container-fluid d-flex justify-content-center pt-5 pb-2">
+        <div className="container-fluid d-flex justify-content-center pt-5 pb-2">
             <Row className="align-items-center">
                 <Col xs={5} sm={1} className="d-flex justify-content-end">
                     <img src={business} />

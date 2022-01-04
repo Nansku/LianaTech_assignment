@@ -59,13 +59,10 @@ const Newsletter = () => {
                     <Form className="form-inline d-flex justify-content-center align-items-center">
                         
                         <Form.Control onChange={e => setField('email', e.target.value)}
-                            isInvalid={!!errors.email} type="email" className="w-auto me-2" id="email" placeholder="Your email address" />
+                            isInvalid={!!errors.email} type="email" className="w-auto me-2" 
+                            id="email" placeholder="Your email address" />
                         
-                        <Form.Control.Feedback type='invalid' className="w-auto pe-2">
-                            {errors.email}
-                        </Form.Control.Feedback> 
-                            
-                        <Button /* onClick={() => setModalShow(true)} */ onClick={handleSubmit} variant="green" id="subscribeNewsletter">Subscribe</Button>                       
+                        <Button onClick={handleSubmit} variant="green" id="subscribeNewsletter">Subscribe</Button>                       
                     </Form>
                 </Col>
             </Row>

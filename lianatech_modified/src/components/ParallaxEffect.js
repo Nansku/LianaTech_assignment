@@ -16,7 +16,7 @@ const ParallaxEffect = () => {
                     </div>
                     <div className="d-flex justify-content-center mt-3">
                         <Button variant="green" className="py-2 button_custom">Learn more</Button>
-                    </div>    
+                    </div>
                 </div>
                 <div style={{ height: '400px' }} />
             </Parallax>

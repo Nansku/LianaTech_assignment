@@ -26,7 +26,7 @@ const Footer = () => {
                 </Row>
                 <Row>
                     <Col className="d-flex justify-content-start align-items-end">
-                        <Col md="auto">
+                        <Col xs="auto">
                             <h5>Sales and inquiries</h5>
                             <p className="m-0">
                                 Email: sales@lianatech.com
@@ -35,12 +35,12 @@ const Footer = () => {
                             </p>
                         </Col>
 
-                        <Col md="auto" className="mt-2 ms-5">
+                        <Col xs="auto" className="mt-2 ms-4 ms-sm-5">
                             <Button variant="green">Contact us</Button>
                         </Col>
                     </Col>
-                    <Col  className="d-flex justify-content-end align-items-end">
-                        <Col md="auto" className="d-flex">
+                    <Col xs="auto"  className="d-flex justify-content-end align-items-end pt-3 pt-sm-0">
+                        <Col className="d-flex">
                             <NavLink className="p-0"><img src={facebookIcon} /></NavLink>
                             <NavLink className="p-0"><img src={twitterIcon} /></NavLink>
                             <NavLink className="p-0"><img src={linkedInIcon}/></NavLink>

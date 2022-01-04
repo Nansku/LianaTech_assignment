@@ -61,8 +61,8 @@ const RSSfeed = () => {
                     slidesToScroll: 1
                 }
             }
-        ]
-    };
+        ]  
+    }
 
     return (
         <div className="container-fluid py-5 mt-5 mb-3" style={{ backgroundColor: "#eceeef" }}>
